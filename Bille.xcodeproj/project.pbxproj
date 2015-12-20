@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094FA6654DE2A24ECCAEE703 /* Pods_Bille.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0313DA9133455D7F6327179B /* Pods_Bille.framework */; };
+		E50FFED11C262BA000FDAF40 /* LogoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50FFED01C262BA000FDAF40 /* LogoutController.swift */; };
 		E5C943FB1C1CA92800C65533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C943FA1C1CA92800C65533 /* AppDelegate.swift */; };
-		E5C943FD1C1CA92800C65533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C943FC1C1CA92800C65533 /* ViewController.swift */; };
+		E5C943FD1C1CA92800C65533 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C943FC1C1CA92800C65533 /* SignupController.swift */; };
 		E5C944001C1CA92800C65533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C943FE1C1CA92800C65533 /* Main.storyboard */; };
 		E5C944021C1CA92800C65533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C944011C1CA92800C65533 /* Assets.xcassets */; };
 		E5C944051C1CA92800C65533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C944031C1CA92800C65533 /* LaunchScreen.storyboard */; };
 		E5C944101C1CA92800C65533 /* BilleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9440F1C1CA92800C65533 /* BilleTests.swift */; };
 		E5C9441B1C1CA92800C65533 /* BilleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9441A1C1CA92800C65533 /* BilleUITests.swift */; };
+		E5C944291C1CB9BC00C65533 /* configUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C944281C1CB9BC00C65533 /* configUrl.swift */; };
+		E5C9442B1C1CC3F900C65533 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9442A1C1CC3F900C65533 /* HomeController.swift */; };
+		E5C9442D1C1CDA2E00C65533 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9442C1C1CDA2E00C65533 /* LoginController.swift */; };
+		E5C9442F1C1CDA4000C65533 /* VerifyOtp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9442E1C1CDA4000C65533 /* VerifyOtp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0313DA9133455D7F6327179B /* Pods_Bille.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bille.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682EA3221115F81E1F6B61A0 /* Pods-Bille.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bille.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bille/Pods-Bille.debug.xcconfig"; sourceTree = "<group>"; };
+		6BC49C618DF79E01E1933409 /* Pods-Bille.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bille.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bille/Pods-Bille.release.xcconfig"; sourceTree = "<group>"; };
+		E50FFED01C262BA000FDAF40 /* LogoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutController.swift; sourceTree = "<group>"; };
 		E5C943F71C1CA92800C65533 /* Bille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bille.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C943FA1C1CA92800C65533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5C943FC1C1CA92800C65533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5C943FC1C1CA92800C65533 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		E5C943FF1C1CA92800C65533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5C944011C1CA92800C65533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C944041C1CA92800C65533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		E5C944161C1CA92800C65533 /* BilleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C9441A1C1CA92800C65533 /* BilleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilleUITests.swift; sourceTree = "<group>"; };
 		E5C9441C1C1CA92800C65533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C944281C1CB9BC00C65533 /* configUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configUrl.swift; sourceTree = "<group>"; };
+		E5C9442A1C1CC3F900C65533 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E5C9442C1C1CDA2E00C65533 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E5C9442E1C1CDA4000C65533 /* VerifyOtp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOtp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094FA6654DE2A24ECCAEE703 /* Pods_Bille.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2032802F192AB4E29126F48A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0313DA9133455D7F6327179B /* Pods_Bille.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDEEDCD50AE3E00EF616FA02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682EA3221115F81E1F6B61A0 /* Pods-Bille.debug.xcconfig */,
+				6BC49C618DF79E01E1933409 /* Pods-Bille.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E5C943EE1C1CA92800C65533 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				E5C9440E1C1CA92800C65533 /* BilleTests */,
 				E5C944191C1CA92800C65533 /* BilleUITests */,
 				E5C943F81C1CA92800C65533 /* Products */,
+				CDEEDCD50AE3E00EF616FA02 /* Pods */,
+				2032802F192AB4E29126F48A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				E5C943FA1C1CA92800C65533 /* AppDelegate.swift */,
-				E5C943FC1C1CA92800C65533 /* ViewController.swift */,
+				E5C943FC1C1CA92800C65533 /* SignupController.swift */,
+				E5C9442C1C1CDA2E00C65533 /* LoginController.swift */,
+				E5C9442E1C1CDA4000C65533 /* VerifyOtp.swift */,
+				E5C9442A1C1CC3F900C65533 /* HomeController.swift */,
+				E50FFED01C262BA000FDAF40 /* LogoutController.swift */,
+				E5C944281C1CB9BC00C65533 /* configUrl.swift */,
 				E5C943FE1C1CA92800C65533 /* Main.storyboard */,
 				E5C944011C1CA92800C65533 /* Assets.xcassets */,
 				E5C944031C1CA92800C65533 /* LaunchScreen.storyboard */,
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C9441F1C1CA92800C65533 /* Build configuration list for PBXNativeTarget "Bille" */;
 			buildPhases = (
+				6DE0450AAE27912BE9145012 /* Check Pods Manifest.lock */,
 				E5C943F31C1CA92800C65533 /* Sources */,
 				E5C943F41C1CA92800C65533 /* Frameworks */,
 				E5C943F51C1CA92800C65533 /* Resources */,
+				4A2A80505B87954A62BC777E /* Embed Pods Frameworks */,
+				384A3E9DEF30095977929498 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +296,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		384A3E9DEF30095977929498 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bille/Pods-Bille-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2A80505B87954A62BC777E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bille/Pods-Bille-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DE0450AAE27912BE9145012 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5C943F31C1CA92800C65533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C943FD1C1CA92800C65533 /* ViewController.swift in Sources */,
+				E5C9442B1C1CC3F900C65533 /* HomeController.swift in Sources */,
+				E5C943FD1C1CA92800C65533 /* SignupController.swift in Sources */,
+				E5C9442F1C1CDA4000C65533 /* VerifyOtp.swift in Sources */,
 				E5C943FB1C1CA92800C65533 /* AppDelegate.swift in Sources */,
+				E5C944291C1CB9BC00C65533 /* configUrl.swift in Sources */,
+				E5C9442D1C1CDA2E00C65533 /* LoginController.swift in Sources */,
+				E50FFED11C262BA000FDAF40 /* LogoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +493,7 @@
 		};
 		E5C944201C1CA92800C65533 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682EA3221115F81E1F6B61A0 /* Pods-Bille.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bille/Info.plist;
@@ -409,6 +505,7 @@
 		};
 		E5C944211C1CA92800C65533 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC49C618DF79E01E1933409 /* Pods-Bille.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bille/Info.plist;
@@ -485,6 +582,7 @@
 				E5C944211C1CA92800C65533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5C944221C1CA92800C65533 /* Build configuration list for PBXNativeTarget "BilleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +591,7 @@
 				E5C944241C1CA92800C65533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5C944251C1CA92800C65533 /* Build configuration list for PBXNativeTarget "BilleUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +600,7 @@
 				E5C944271C1CA92800C65533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
